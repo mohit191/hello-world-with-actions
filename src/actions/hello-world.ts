@@ -1,4 +1,5 @@
 'use server';
+export const maxDuration = 35; // This function can run for a maximum of 35 seconds
 
 const delay = async (delayInms: number) => {
   return new Promise(resolve => setTimeout(resolve, delayInms));
